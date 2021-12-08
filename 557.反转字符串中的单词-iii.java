@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-08-16 21:10:53
- * @LastEditTime: 2021-08-16 21:15:11
+ * @LastEditTime: 2021-12-08 12:42:05
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \.leetcode\557.反转字符串中的单词-iii.java
@@ -23,7 +23,7 @@ class Solution {
                     continue;
                 }
                 swap(strArray,left,right-1);
-                left = right +1;
+                left = right + 1;
             }
             right++;
         }
